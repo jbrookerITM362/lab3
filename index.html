@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
-  <title>HTML Form Elements</title>
+  <title>Simple Form</title>
   <meta charset="utf-8" />
-  <meta name="viewport" />
-  <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="assets/reset.css" />
+  <link rel="stylesheet" media="screen" href="assets/screen.css" />
 </head>
 <body>
-<main id="content">
-  <form method="get" action="#null">
-    <h1>Secret Diabetes Newsletter</h1>
-    <p>
-      Sign up and learn 5 secrets to fight Diabetes!
-    </p>
-    <ol>
-      <li id="input-email">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" pattern="^.+@.+$" />
-      </li>
-      <li id="input-age-verification">
-        <input type="checkbox" id="age-verification" name="age-verification" value="18" />
-        <label for="age-verification">I am over 18 years old</label>
-      </li>
-      <li id="input-submit">
-        <input type="submit" name="submit" id="submit" value="Subscribe" />
-      </li>
-    </ol>
+  <main id="content">
+  <h1>Fill in the required form</h1>
+  <form method="get" autocomplete="on" action="#null">
+    <fieldset>
+      <div id="wrap">
+        <div><label>Full Name: <input type="text" placeholder="Please enter name"></label></div>
+        <div><label>Email Address: <input type="email" placeholder="Please enter email address"></label></div>
+	      <div><label>Phone Number: <input type="text" placeholder="Please enter phone number"></label></div>
+	      <div><label>Date Of Birth: <input type="date"></label></div>
+    </fieldset>
+
+    <input type="submit" value="Submit">
   </form>
-</main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/site.js"></script>
+
+  <footer id="footer">
+      <p>Site © Jacob Brooker. All Rights Reserved.</p>
+  </footer>
+
 </body>
 </html>
