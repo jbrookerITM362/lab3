@@ -18,6 +18,7 @@ h1 {
 }
 
 fieldset {
+  border-color: transparent;
   width: 1%;
 }
 
