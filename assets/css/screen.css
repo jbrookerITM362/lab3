@@ -23,7 +23,7 @@ fieldset {
 
 #content {
   border-color: transparent;
-  background-color: #DCDCDC	;
+  background-color: #808080;
 }
 
 li {
@@ -32,7 +32,17 @@ li {
 
 label {
   display: block;
-  padding-bottom: 0.5em; /*9 /18 =0.5em */
+  padding-bottom: 0.25em;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+button, input {
+  font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  border-color: transparent;
+  background-color: #DCDCDC;
+  overflow: visible;
 }
 
 
@@ -41,6 +51,30 @@ footer {
   bottom: 0;
   height: 2.5rem;
 }
+
+@media screen and (min-width: 12.6em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 65%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 24.8em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 100%;
+  }
+}
+
 
 @media screen and (min-width: 55.555556em) {
   #wrap {
