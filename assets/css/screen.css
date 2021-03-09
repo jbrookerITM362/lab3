@@ -1,24 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
+/*@import url("//basehold.it/24");*/
 
 html {
-  font-family: 'Literata', Georgia, 'Times New Roman', Times, Roman, serif;  font-size: 1.111111em; /*20 /18 = 1*/
-  background: #85a3e0;
+  font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  background: #BEBEBE;
   line-height: 1.55555em; /*28 /18 =1.55555em */
   padding: 1.55555em; /*28 /18 =1.55555em */
   font-size: 1.125em;
 }
 
 h1 {
+  font-family: 'Roboto Slab', serif;
   font-size: 1.666667em; /*30 /18 =1.666667em */
   padding-bottom: 1.333333em; /*24 /18 =1.333333 */
   text-align: center;
   font-weight: bold;
 }
 
-form {
-  margin: 1em;
+fieldset {
   width: 1%;
 }
+
+#content {
+  border-color: transparent;
+  background-color: #DCDCDC	;
+}
+
+li {
+  padding-bottom: 1em; /*18 /18 =1em */
+}
+
+label {
+  display: block;
+  padding-bottom: 0.5em; /*9 /18 =0.5em */
+}
+
 
 footer {
   position: absolute;
